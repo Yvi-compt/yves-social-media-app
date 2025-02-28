@@ -1,4 +1,16 @@
+variable "subscription_id"{
+  type=string
+}
 
+variable "client_id"{
+  type=string
+}
+variable "client_secret"{
+  type=string
+}
+variable "tenant_id"{
+  type=string
+}
 variable "azure_region" {
   description = "La région Azure où les ressources seront déployées"
   type        = string
